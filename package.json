@@ -4,6 +4,7 @@
   "description": "learning nodejs, express, monogodb",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "start:dev": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production && nodemon server.js",
     "debug": "ndb server.js",
