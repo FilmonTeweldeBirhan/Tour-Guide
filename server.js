@@ -26,7 +26,7 @@ const app = require('./app');
   });
 
   // DATABASE
-  const conn = await mongoose.connect(process.env.DATABASE_LOCAL);
+  const conn = await mongoose.connect(process.env.DATABASE);
   // console.log(conn.connections);
   console.log('DB Connected successfully!.');
 })();
