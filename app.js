@@ -103,7 +103,7 @@ app.use('/api/v1/users', userRouter);
 app.use('/api/v1/stats', reviewRouter);
 
 // another router that i'm trying
-app.use(sad);
+// app.use(sad);
 
 /* url error handler middleware the all method 
 refers to all request method actions */
