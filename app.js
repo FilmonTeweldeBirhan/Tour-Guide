@@ -5,7 +5,7 @@ const rateLimit = require('express-rate-limit');
 
 const APPError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
-const sad = require('./dsga');
+// const sad = require('./dsga');
 const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
